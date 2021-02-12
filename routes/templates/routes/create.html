@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Default form from Django -->
+<!--<form method="post"> {% csrf_token %}-->
+<!--    {{ form.as_p }}-->
+<!--    <input type="submit" value="Save" />-->
+<!--</form>-->
+<form method="post"> {% csrf_token %}
+<!--    <input type="input" name="title" placeholder="Your Product Title" />-->
+    {{ form.as_p }}
+    <input type="submit" value="Save" />
+</form>
+<iframe src='https://connect.garmin.com/modern/course/embed/49079692' width='465' height='548' frameborder='0'></iframe>
+{% endblock %}

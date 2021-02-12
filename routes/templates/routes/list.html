@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Routes
+<ul>
+    {% for item in obj_list %}
+    <li>{{forloop.counter}} ->
+        <a href="/routes/{{item.id}}">{{item.title}}</a>
+<!--        <a href="/products/delete/{{item.id}}">delete</a>-->
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

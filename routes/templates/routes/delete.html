@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+my Product Detail:
+<div>{{ obj.title }}</div>
+<div>
+    {{ obj.description }}
+</div>
+<div>
+    {{ obj.price }}
+</div>
+<form method="post"> {% csrf_token %}
+    <input type="submit" value="delete" />
+</form>
+
+{% endblock %}

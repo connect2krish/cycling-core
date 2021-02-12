@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Route Detail:
+<div>
+    <a target="_blank" href="{{obj.url}}">{{ obj.title }}</a>
+</div>
+<div>
+    Description: {{ obj.description }}
+</div>
+<div>
+   East Bay route: {{obj.is_east_bay_route}}
+</div>
+<div>
+   Distance: {{ obj.distance }}
+</div>
+<div>
+    <iframe src={{obj.iframe_url}}
+            width='465'
+            height='548'
+            frameborder='0'>
+    </iframe>
+</div>
+
+{% endblock %}
