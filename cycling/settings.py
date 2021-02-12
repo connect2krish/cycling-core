@@ -24,7 +24,7 @@ SECRET_KEY = '2yb944+y3A@dhy@9^j3+-8d!vy@8@s7bv0cs6%)r1phw-r6jwy!x2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'cycling-test.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'cyclingfun.herokuapp.com']
 
 # Application definition
 
