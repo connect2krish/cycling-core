@@ -1,0 +1,1 @@
+web: gunicorn cycling-core.wsgi --log-file -
