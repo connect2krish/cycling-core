@@ -1,1 +1,1 @@
-web: gunicorn cyclingfun.wsgi --log-file -
+web: gunicorn cycling-routes.wsgi --log-file -
